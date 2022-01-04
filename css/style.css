@@ -8,18 +8,19 @@ body{
 }
 .allsection{
     display:flex;
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-top: 100px;
 }
 .welcome{
-    margin-right: 100px;
+    width: 100%;
+    margin: 50px;
 }
 .welcome p{
     text-align: justify;
 }
 .welcome button{
-    width: 250px;    
+    width: 350px;    
     height: 80px;
     border: 1px solid green;
     background-color: purple;
@@ -30,16 +31,72 @@ body{
 .welcome button:hover{
     cursor: pointer;
     color: seagreen;
-    background-color: blue;
+    background-color: oightblue;
     text-emphasis-color: gray;
     
 }
+.Dream{
+   width: 100%;
+    margin: 50px;
+    
+}
+.Dream p{
+    text-align: justify;
+}
+.Dream button{
+    width: 350px;    
+    height: 80px;
+    border: 1px solid green;
+    background-color: blue;
+    font-size: 35px;
+    color: white;
+    border-radius: 10px;
+}
+.Dream button:hover{
+    cursor: pointer;
+    color: seagreen;
+    background-color: cyan;
+    text-emphasis-color: gray;
+    
+}
+
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 60px;
 }
 
-.image1{
+.image{
     width: 600px;
     height: 600px;
 }
+
+.sideimage{
+    background-image: url(/img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.scetionc{
+    text-align: center;
+}
+
+.scetionc-div{
+display: flex;
+background-image: url(/img/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+ .scetionc-div div{
+    margin: 35px;
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px gray;
+    padding: 35px;
+    text-align: justify;
+    width: 100%;
+ }
+
+ footer{
+     text-align: center;
+ }
