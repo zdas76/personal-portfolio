@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#top-border{
+    background-image: url(/img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.allsection{
+    display:flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+.welcome{
+    margin-right: 100px;
+}
+.welcome p{
+    text-align: justify;
+}
+.welcome button{
+    width: 250px;    
+    height: 80px;
+    border: 1px solid green;
+    background-color: purple;
+    font-size: 35px;
+    color: white;
+    border-radius: 10px;
+}
+.welcome button:hover{
+    cursor: pointer;
+    color: seagreen;
+    background-color: blue;
+    text-emphasis-color: gray;
+    
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+}
+
+.image1{
+    width: 600px;
+    height: 600px;
+}
